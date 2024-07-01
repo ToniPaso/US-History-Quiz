@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.first-page {
+    width: 400px;
+    height: 620px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first-page img {
+    width: 100%;
+}
+
+.first-page-text {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.first-page h2 {
+    font-size: 1.7rem;
+    margin: 1rem 0;
+    color: rgb(57, 57, 169);
+}
+
+.first-page p {
+    line-height: 1.6;
+}
+
+.first-btn {
+    padding: .5rem 1rem;
+    background: tomato;
+    outline: none;
+    border: 1px solid tomato;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: white;
+    margin-left: 40%;
+    box-shadow: .1rem .1rem .2rem rgb(0, 0, 0.4);
+    margin-top: .5rem;
+}
+
+.first-btn:hover {
+    background-color: rgb(57, 57, 169);
+    border: 1px solid rgb(57, 57, 169);
+}
+
+/*----------------------------------------------------------------2nd page --------------------------------------------------------- */
+.page-2 {
+    width: 400px;
+    height: 620px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.title {
+    border-bottom: 1px solid tomato;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.title h2 {
+    color: tomato;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    color: rgb(57, 57, 169);
+    line-height: 1.7;
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+.button-aira {
+    display: flex;
+    gap: 3rem;
+    margin-left: 3rem;
+    margin-top: .5rem;
+}
+
+.button-aira .btn-2 {
+    padding: .5rem 1rem;
+    background: tomato;
+    outline: none;
+    border: 1px solid tomato;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: white;
+    margin-left: 30px;
+    box-shadow: .1rem .1rem .2rem rgb(0, 0, 0.4);
+    margin-top: .5rem;
+}
+
+.para {
+    color: tomato;
+    width: 70%;
+    margin: 1rem auto;
+}
+
+.button-aira .btn-2:hover {
+    background-color: rgb(57, 57, 169);
+    border: 1px solid rgb(57, 57, 169);
+}
+
+/*----------------------------------------------------------------3rd page --------------------------------------------------------- */
+.page-3 {
+    width: 400px;
+    height: 620px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.icon {
+    height: 3rem;
+}
+
+.title-aria {
+    height: 4rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.star-aria {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(57, 57, 169);
+}
+
+.left-count {
+    width: 130px;
+    height: 20px;
+    padding: 0 .2rem;
+    background: tomato;
+    border-radius: .5rem;
+    text-align: center;
+    margin-right: -1.8rem;
+}
+
+.right-count {
+    background-color: rgb(57, 57, 169);
+    height: 35px;
+    width: 40px;
+    border-radius: .2rem;
+    padding: .2rem .5rem;
+    position: relative;
+
+}
+
+.count-aria {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-line {
+    height: .3rem;
+    width: 100%;
+    background: tomato;
+}
+
+.text-aria {
+    padding: 2rem;
+}
+
+.quize {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+.option {
+    display: flex;
+    background: tomato;
+    padding: .5rem;
+    margin: .5rem;
+    justify-content: space-between;
+    color: white;
+}
+
+.option:hover {
+    background: rgb(1, 142, 1);
+    color: white;
+}
+
+.bottom-aria {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border-top: 1px solid tomato;
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+
+.btn-3 {
+    display: flex;
+}
+
+
+/* Pointer-event is added, so when you click more times on the same answer the Picture doesnt come up twice or more time */
+.right {
+    background: rgb(3, 221, 3);
+}
+
+.wrong {
+    background: red;
+}
+
+.puss {
+    pointer-events: none;
+
+}
+
+/*----------------------------------------------------------------LAST PAGE---------------------------------------------------------- */
+.last-page {
+    width: 400px;
+    height: 620px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: none;
+}
+
+.win-img {
+    width: 100%;
+}
+
+.last-page h2 {
+    color: rgb(57, 57, 169);
+    margin-bottom: .5rem;
+}
+
+.score {
+    color: tomato;
+    font-size: 1.2rem;
+}
+
+.score p {
+    font-weight: bold;
+    color: rgb(57, 57, 169);
+}
+
+.btn-win {
+    padding: .5rem 1rem;
+    background: tomato;
+    outline: none;
+    border: 1px solid tomato;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: white;
+    box-shadow: .1rem .1rem .2rem rgb(0, 0, 0.4);
+    margin: .5rem;
+    border-radius: 20%;
+}
+
+.winBtn {
+    margin-right: .5rem;
+}
+
+.btn-win:hover {
+    background: rgb(57, 57, 169);
+}
